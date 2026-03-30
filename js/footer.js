@@ -22,10 +22,7 @@
         </div>
         <div class="col-md-4">
           <h6 class="text-white fw-bold mb-3">Contact</h6>
-          <p style="font-size:.85rem;"><i class="bi bi-envelope me-1"></i><a href="mailto:zemisolsol@sungshin.ac.kr">zemisolsol@sungshin.ac.kr</a></p>
-          <p style="font-size:.85rem;"><i class="bi bi-envelope me-1"></i><a href="mailto:tonymhwang@cs.ccu.edu.tw">tonymhwang@cs.ccu.edu.tw</a></p>
-          <p style="font-size:.85rem;"><i class="bi bi-envelope me-1"></i><a href="mailto:changsongyang@guet.edu.cn">changsongyang@guet.edu.cn</a></p>
-          <p style="font-size:.85rem;"><i class="bi bi-envelope me-1"></i><a href="mailto:tianliwei@gdust.edu.cn">tianliwei@gdust.edu.cn</a></p>
+          <p style="font-size:.85rem;"><i class="bi bi-envelope me-1"></i><a href="mailto:asiajcis2026@easychair.org">asiajcis2026@easychair.org</a></p>
         </div>
       </div>
       <hr class="footer-divider my-3">
