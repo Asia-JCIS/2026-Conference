@@ -14,7 +14,7 @@
           <h6 class="text-white fw-bold mb-3">Quick Links</h6>
           <ul class="list-unstyled" style="font-size:.85rem;">
             <li><a href="callforpapers.html">Call for Papers</a></li>
-            <li><a href="program.html">Conference Program</a></li>
+            <!-- <li><a href="program.html">Conference Program</a></li> -->
             <li><a href="registration.html">Registration</a></li>
             <li><a href="venue.html">Venue Info</a></li>
             <li><a href="committee.html">Committees</a></li>
