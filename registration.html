@@ -133,7 +133,8 @@
                   <thead>
                     <tr>
                       <th class="py-3 ps-4">Category</th>
-                      <th class="py-3 pe-4 text-end">Fee</th>
+                      <th class="py-3 pe-4 text-end">Offline</th>
+                      <th class="py-3 pe-4 text-end">Online</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -141,34 +142,71 @@
                       <td class="ps-4 py-3">
                         <i class="bi bi-mortarboard me-2 text-primary"></i>
                         <strong>Student</strong>
-                        <span class="badge bg-light text-secondary border ms-2 fw-normal"> </span>
                       </td>
                       <td class="pe-4 text-end fw-bold py-3 fs-5 text-success">400 USD</td>
+                      <td class="pe-4 text-end fw-bold py-3 fs-5 text-success">350 USD</td>
                     </tr>
                     <tr>
                       <td class="ps-4 py-3">
                         <i class="bi bi-person-badge me-2 text-primary"></i>
                         <strong>General Participant</strong>
-                        <span class="badge bg-light text-secondary border ms-2 fw-normal"> </span>
                       </td>
                       <td class="pe-4 text-end fw-bold py-3 fs-5 text-success">500 USD</td>
+                      <td class="pe-4 text-end fw-bold py-3 fs-5 text-success">450 USD</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
               <p class="text-muted small mb-4">
-                <i class="bi bi-check-circle text-success me-1"></i>Registration includes: offline conference participation, access to online proceedings, two lunches, one banquet, and a souvenir.
+                <i class="bi bi-check-circle text-success me-1"></i>Offline registration includes: conference participation, access to online proceedings, two lunches, one banquet, and a souvenir. Online participants receive a <strong>$50 discount</strong> and access to online proceedings only.
               </p>
 
               <!-- Online Registration -->
-              <h3 class="section-subtitle">Step 1 — Complete Online Payment</h3>
-              <div class="text-center p-4 rounded mb-4" style="background:var(--light-bg); border:2px dashed var(--accent2);">
-                <p class="text-muted mb-1 small fw-semibold text-uppercase">Complete your registration payment here</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf53ZzZD_NgFTlpJRoLIYmqxDPTpSiNmJwoqmts9Yv8qVgZVg/viewform?usp=send_form"
-                   target="_blank" rel="noopener noreferrer" class="btn btn-primary-custom btn-lg px-5 my-2">
-                  <i class="bi bi-pencil-square me-2"></i>Register &amp; Pay Online
-                </a>
-                <p class="text-muted small mt-2 mb-0">On-site registration is also available at the venue (credit card only, same fees apply).</p>
+              <h3 class="section-subtitle">Step 1 — Complete Payment</h3>
+  
+              <!-- Wire Transfer Info -->
+              <div class="card shadow-sm mb-4" style="border-left:4px solid var(--primary);">
+                <div class="card-header text-white" style="background:var(--primary);">
+                  <h5 class="mb-0"><i class="bi bi-bank me-2"></i>International Wire Transfer Information</h5>
+                </div>
+                <div class="card-body p-4">
+                  <p class="text-muted small mb-3">If paying by bank wire transfer, please use the following banking details:</p>
+                  <table class="table table-borderless mb-0" style="font-size:.92rem;">
+                    <tbody>
+                      <tr>
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="width:220px; color:var(--primary);"><i class="bi bi-building me-2"></i>Beneficiary Name</td>
+                        <td class="py-2">GUILIN AMITY MEETING CO., LTD</td>
+                      </tr>
+                      <tr style="background:#f8faff;">
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="color:var(--primary);"><i class="bi bi-credit-card me-2"></i>Account No.</td>
+                        <td class="py-2">618 457 488 717</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="color:var(--primary);"><i class="bi bi-bank2 me-2"></i>Bank Name</td>
+                        <td class="py-2">BANK OF CHINA, Guilin Sales Department</td>
+                      </tr>
+                      <tr style="background:#f8faff;">
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="color:var(--primary);"><i class="bi bi-geo-alt me-2"></i>Bank Address</td>
+                        <td class="py-2">2 ZHONGSHANZHONG ROAD, GUILIN</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="color:var(--primary);"><i class="bi bi-mailbox me-2"></i>Post Code</td>
+                        <td class="py-2">541002</td>
+                      </tr>
+                      <tr style="background:#f8faff;">
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="color:var(--primary);"><i class="bi bi-globe2 me-2"></i>SWIFT Code</td>
+                        <td class="py-2 fw-bold">BKCHCNBJ49C</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="color:var(--primary);"><i class="bi bi-house me-2"></i>Beneficiary Address</td>
+                        <td class="py-2">2/F, No. 3 Liuhe Road, Guilin, China</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="alert alert-warning mt-3 mb-0 small">
+                    <i class="bi bi-exclamation-triangle me-2"></i>Please indicate your full name and paper ID in the wire transfer remarks. Bank transfer fees are the responsibility of the sender.
+                  </div>
+                </div>
               </div>
 
               <!-- Post-payment form notice -->
@@ -230,16 +268,13 @@
               <h3 class="section-subtitle">Contact Information</h3>
               <div class="card border-0 shadow-sm">
                 <div class="card-body p-4">
-                <p class="mb-3">For further information regarding the conference, please contact:</p>
-                <p class="mb-2">
-                  <i class="bi bi-envelope me-2 text-primary"></i>
-                  <strong>Program Email Address:</strong>
-                  <a href="mailto:asiajcis2026@easychair.org">asiajcis2026@easychair.org</a>
-                </p>
-               
-               
-     
-              </div>
+                  <p class="mb-3">For further information regarding the conference, please contact:</p>
+                  <p class="mb-2">
+                    <i class="bi bi-envelope me-2 text-primary"></i>
+                    <strong>Program Email Address:</strong>
+                    <a href="mailto:asiajcis2026@easychair.org">asiajcis2026@easychair.org</a>
+                  </p>
+                </div>
               </div>
 
             </div><!-- /col-lg-8 -->
@@ -323,7 +358,8 @@
                   <thead>
                     <tr>
                       <th class="py-3 ps-4">类别</th>
-                      <th class="py-3 pe-4 text-end">费用</th>
+                      <th class="py-3 pe-4 text-end">线下参会</th>
+                      <th class="py-3 pe-4 text-end">线上参会</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -331,33 +367,68 @@
                       <td class="ps-4 py-3">
                         <i class="bi bi-mortarboard me-2 text-primary"></i>
                         <strong>学生</strong>
-                        <span class="badge bg-light text-secondary border ms-2 fw-normal">线下出席</span>
                       </td>
                       <td class="pe-4 text-end fw-bold py-3 fs-5 text-success">2,800 CNY</td>
+                      <td class="pe-4 text-end fw-bold py-3 fs-5 text-success">2,500 CNY</td>
                     </tr>
                     <tr>
                       <td class="ps-4 py-3">
                         <i class="bi bi-person-badge me-2 text-primary"></i>
                         <strong>普通参会者</strong>
-                        <span class="badge bg-light text-secondary border ms-2 fw-normal">线下出席</span>
                       </td>
                       <td class="pe-4 text-end fw-bold py-3 fs-5 text-success">3,500 CNY</td>
+                      <td class="pe-4 text-end fw-bold py-3 fs-5 text-success">3,200 CNY</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
               <p class="text-muted small mb-4">
-                <i class="bi bi-check-circle text-success me-1"></i>注册费包含：线下会议参与资格、在线论文集访问权限、两次午餐、一次晚宴及纪念品。
+                <i class="bi bi-check-circle text-success me-1"></i>线下注册费包含：会议参与资格、在线论文集访问权限、两次午餐、一次晚宴及纪念品。线上参会者可享受 <strong>300元优惠</strong>，仅含在线论文集访问权限。
               </p>
 
               <!-- Online Payment -->
-              <h3 class="section-subtitle">第一步 — 完成在线缴费</h3>
-              <div class="text-center p-4 rounded mb-4" style="background:var(--light-bg); border:2px dashed var(--accent2);">
-                <p class="text-muted mb-1 small fw-semibold text-uppercase">点击下方链接完成注册缴费</p>
-                <a href="#" class="btn btn-primary-custom btn-lg px-5 my-2">
-                  <i class="bi bi-box-arrow-up-right me-2"></i>中国参会者注册缴费入口
-                </a>
-                <p class="text-muted small mt-2 mb-0">现场注册同样可用，费用与线上注册相同，支持刷卡支付。</p>
+              <h3 class="section-subtitle">第一步 — 完成缴费</h3>
+
+
+              <!-- CN Bank Transfer Info -->
+              <div class="card shadow-sm mb-4" style="border-left:4px solid var(--primary);">
+                <div class="card-header text-white" style="background:var(--primary);">
+                  <h5 class="mb-0"><i class="bi bi-bank me-2"></i>国内汇款信息</h5>
+                </div>
+                <div class="card-body p-4">
+                  <p class="text-muted small mb-3">如需银行转账付款，请使用以下账户信息：</p>
+                  <table class="table table-borderless mb-0" style="font-size:.92rem;">
+                    <tbody>
+                      <tr>
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="width:120px; color:var(--primary);"><i class="bi bi-building me-2"></i>名称</td>
+                        <td class="py-2">桂林友好会展有限公司</td>
+                      </tr>
+                      <tr style="background:#f8faff;">
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="color:var(--primary);"><i class="bi bi-file-text me-2"></i>税号</td>
+                        <td class="py-2">914503007479643183</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="color:var(--primary);"><i class="bi bi-bank2 me-2"></i>开户行</td>
+                        <td class="py-2">中行桂林分行营业部</td>
+                      </tr>
+                      <tr style="background:#f8faff;">
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="color:var(--primary);"><i class="bi bi-credit-card me-2"></i>银行账号</td>
+                        <td class="py-2 fw-bold">618457488717</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="color:var(--primary);"><i class="bi bi-geo-alt me-2"></i>地址</td>
+                        <td class="py-2">桂林市六合路三号二楼</td>
+                      </tr>
+                      <tr style="background:#f8faff;">
+                        <td class="ps-0 py-2 fw-semibold text-nowrap" style="color:var(--primary);"><i class="bi bi-telephone me-2"></i>电话</td>
+                        <td class="py-2">0773-5860288</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="alert alert-warning mt-3 mb-0 small">
+                    <i class="bi bi-exclamation-triangle me-2"></i>转账时请在备注中注明您的姓名及论文编号，转账手续费由汇款方承担。
+                  </div>
+                </div>
               </div>
 
               <!-- Post-payment form notice -->
@@ -420,8 +491,7 @@
               <div class="card border-0 shadow-sm">
                 <div class="card-body">
                   <p class="fw-bold mb-2">AsiaJCIS 2026 组委会</p>
-                  <p class="mb-1"><i class="bi bi-person me-2 text-primary"></i><strong>项目联席主席：</strong>杨长松（Changsong Yang）</p>
-                  <p class="mb-0"><i class="bi bi-envelope me-2 text-primary"></i><strong>邮箱：</strong><a href="mailto:changsongyang@guet.edu.cn">changsongyang@guet.edu.cn</a></p>
+                  <p class="mb-0"><i class="bi bi-envelope me-2 text-primary"></i><strong>邮箱：</strong><a href="mailto:asiajcis2026@easychair.org">asiajcis2026@easychair.org</a></p>
                 </div>
               </div>
 
@@ -465,9 +535,6 @@
             </div>
           </div>
         </div><!-- /cn-content -->
-
-
-   
 
       </div><!-- /tab-content -->
     </div>
